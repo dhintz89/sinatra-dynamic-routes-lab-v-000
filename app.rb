@@ -25,7 +25,7 @@ class App < Sinatra::Base
     @word4 = params[:word4]
     @word5 = params[:word5]
     words = [@word1, @word2, @word3, @word4, @word5]
-    words.join(' ')
+    words.join(' ')+"."
   end
   
   get "/:operation/:number1/:number2" do
