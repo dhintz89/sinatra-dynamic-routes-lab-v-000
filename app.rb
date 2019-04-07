@@ -29,7 +29,7 @@ class App < Sinatra::Base
   end
   
   get "/:operation/:number1/:number2" do
-    case if params[:operation]
+    case params[:operation]
       "add" then
         
   
