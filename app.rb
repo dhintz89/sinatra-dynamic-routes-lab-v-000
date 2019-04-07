@@ -40,6 +40,5 @@ class App < Sinatra::Base
       else "Not a valid operation"
     end
   end
-        
   
 end
