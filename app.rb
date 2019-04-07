@@ -36,7 +36,7 @@ class App < Sinatra::Base
       when "add" then (@num1 + @num2).to_s
       when "subtract" then (@num1 - @num2).to_s
       when "multiply" then (@num1 * @num2).to_s
-      when "divide" then (@num1/@num2).to_s
+      when "divide" then (@num1 / @num2).to_s
       else "Not a valid operation"
     end
   end
